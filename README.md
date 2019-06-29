@@ -1,4 +1,4 @@
-#lastFmCritt3r 1.0
+**lastFmCritt3r 1.0**  
 one-liner to tweet your top 5 Last FM scrobbles
 
 Requirements:
