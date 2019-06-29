@@ -3,10 +3,13 @@ one-liner to tweet your top 5 Last FM scrobbles
 
 Requirements:
 
--You are a linux user (well, of course you are)
--You have setup an Last FM API key       : how to do this simple procedure is described at https://www.last.fm/api
--You have installed and authorized twurl : just google, it's really simple
--You have installed jq                   : of course you have, it's your standard json parser
+1. You are a linux user (well, of course you are)  
+2. You have setup an Last FM API key  
+   - how to do this simple procedure is described at https://www.last.fm/api  
+3. You have installed and authorized twurl  
+   - just google, it's really simple  
+4. You have installed jq  
+   - of course you have, it's your standard json parser  
 
 In the script exchange
 
