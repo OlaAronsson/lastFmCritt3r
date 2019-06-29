@@ -19,11 +19,11 @@ In the script exchange
 That's it. It should work fine, posting stuff like
 
 ♬ This week's top spins on olamattias's Last FM  
-1_Damon Albarn_The Selfish Giant  
-2_Jai Paul_BTSTU - Demo  
-3_Jai Paul_Zion Wolf Theme - Unfinished  
-4_Cocteau Twins_Cherry-Coloured Funk  
-5_Cocteau Twins_The Itchy Glowbo Blow  
+1. Damon Albarn : The Selfish Giant  
+2. Jai Paul : BTSTU - Demo  
+3. Jai Paul : Zion Wolf Theme - Unfinished  
+4. Cocteau Twins : Cherry-Coloured Funk  
+5. Cocteau Twins : The Itchy Glowbo Blow  
 
 to your twitter account. Now just crontab -e and set it up for a weekly run.
 
