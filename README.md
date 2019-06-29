@@ -4,7 +4,7 @@ one-liner to tweet your top 5 Last FM scrobbles
 Requirements:
 
 1. You are a linux user (well, of course you are)  
-2. You have setup an Last FM API key  
+2. You have setup a Last FM API key  
    - how to do this simple procedure is described at https://www.last.fm/api  
 3. You have installed and authorized twurl  
    - just google, it's really simple  
