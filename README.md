@@ -15,12 +15,12 @@ In the script exchange
 
 That's it. It should work fine, posting stuff like
 
-♬ This week's top spins on olamattias's Last FM
-1_Damon Albarn_The Selfish Giant
-2_Jai Paul_BTSTU - Demo
-3_Jai Paul_Zion Wolf Theme - Unfinished
-4_Cocteau Twins_Cherry-Coloured Funk
-5_Cocteau Twins_The Itchy Glowbo Blow
+♬ This week's top spins on olamattias's Last FM  
+1_Damon Albarn_The Selfish Giant  
+2_Jai Paul_BTSTU - Demo  
+3_Jai Paul_Zion Wolf Theme - Unfinished  
+4_Cocteau Twins_Cherry-Coloured Funk  
+5_Cocteau Twins_The Itchy Glowbo Blow  
 
 to your twitter account. Now just crontab -e and set it up for a weekly run.
 
