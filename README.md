@@ -33,3 +33,4 @@ to your twitter account having COMPACT toggled to 0.
 
 Now just crontab -e and set it up for a weekly run.
 
+https://twitter.com/dah0l3
