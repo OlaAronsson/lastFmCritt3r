@@ -1,15 +1,14 @@
-# **lastFmCritt3r 1.0**  
-one-liner to tweet your top 5 Last FM scrobbles
+# **lastFmCritt3r 2.0**  
+some-liner to tweet your top 5 Last FM scrobbles
 
 Requirements:
 
 1. You are a linux user (well, of course you are)  
 2. You have setup a Last FM API key  
    - how to do this simple procedure is described at https://www.last.fm/api  
-3. You have installed and authorized twurl  
-   - just google, it's really simple  
-4. You have installed jq  
-   - of course you have, it's your standard json parser  
+3. You have a fresh 2.x Twitter App registred at your Twitter development portal  
+   - Log in, go to https://developer.twitter.com/en/portal/dashboard, set it up  
+4. You have installed a FRESH python, pip and the tweepy python module.  
 
 In the script exchange
 
