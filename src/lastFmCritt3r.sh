@@ -10,8 +10,8 @@ NOOFTRACKS=5
 SHOW_TWEET_PROBLEMS=1
 
 # You need to provide these
-echo $USER | grep "MYLASTFM" > /dev/null 2>&1 && echo "You need to provide your Last FM User" && exit 1
-echo $KEY | grep "MYLASTFM" > /dev/null 2>&1 && echo "You need to provide your Last FM API key" && exit 1
+echo $USER | grep "LAST_FM" > /dev/null 2>&1 && echo "You need to provide your Last FM User" && exit 1
+echo $KEY | grep "LAST_FM" > /dev/null 2>&1 && echo "You need to provide your Last FM API key" && exit 1
 
 # Some binaries needed - Python, pip and the tweepy module
 BINS_NEEDED="python pip"
