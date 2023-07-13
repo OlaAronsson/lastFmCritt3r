@@ -6,14 +6,14 @@ Requirements:
 1. You are a linux user (well, of course you are)  
 2. You have setup a Last FM API key  
    - how to do this simple procedure is described at https://www.last.fm/api  
-3. You have a fresh 2.x Twitter App registred at your Twitter development portal  
-   - Log in, go to https://developer.twitter.com/en/portal/dashboard, set it up  
-4. You have installed a FRESH python, pip and the tweepy python module.  
+3. You have a fresh 2.x Twitter App registered at your Twitter Development Portal  
+   - log in, go to https://developer.twitter.com/en/portal/dashboard, set it up  
+4. You have installed a FRESH python, pip and the tweepy python module required  
 
 In the script exchange
 
-1. MYLASTFMUSER with your user
-2. MYLASTFMAPIKEY with your Last FM API key
+1. LAST_FM_USER_ID with your user
+2. LAST_FM_API_KEY with your Last FM API key
 
 That's it. It should work fine, posting stuff like
 
