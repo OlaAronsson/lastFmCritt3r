@@ -10,10 +10,17 @@ Requirements:
    - log in, go to https://developer.twitter.com/en/portal/dashboard, set it up  
 4. You have installed a FRESH python, pip and the tweepy python module required  
 
-In the script exchange
+In the shell script exchange
 
 1. LAST_FM_USER_ID with your user
 2. LAST_FM_API_KEY with your Last FM API key
+
+In the python script exchange your twitter secrets with the ones you
+have generated at 
+
+https://developer.twitter.com/en/portal/dashboard
+
+for your project.
 
 That's it. It should work fine, posting stuff like
 
