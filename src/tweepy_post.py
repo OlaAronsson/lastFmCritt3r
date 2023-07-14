@@ -26,7 +26,7 @@ def __post_inner(tweet: str, silent: bool):
         ########################################################
         
         consumer_key = "TWITTER_API_KEY"
-        consumer_secret = ""TWITTER_API_KEY_SECRET"
+        consumer_secret = "TWITTER_API_KEY_SECRET"
         access_token = "TWITTER_ACCESS_TOKEN"
         access_token_secret = "TWITTER_ACCESS_TOKEN_SECRET"
 
