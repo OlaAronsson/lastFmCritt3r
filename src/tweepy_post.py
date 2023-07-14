@@ -25,10 +25,10 @@ def __post_inner(tweet: str, silent: bool):
         #
         ########################################################
         
-        consumer_key = "1Y9oW2oaWK8SbhGSAEJm9iyQl"
-        consumer_secret = "6ay6AJBfZUty02NRNxfdq1JS6inVKi5OTTonhA8mP5cYZrxD4C"
-        access_token = "4193726788-TpWIXzYB68QwxKvlxl3lkLkuxhr6nnnG5Ak3nWn"
-        access_token_secret = "lMDvZfsAMFGjKZIgAujcyoW6B5c7mpCuWUEhdgcx5LO9U"
+        consumer_key = "TWITTER_CONSUMER_KEY"
+        consumer_secret = "TWITTER_CONSUMER_SECRET"
+        access_token = "TWITTER_ACCESS_TOKEN"
+        access_token_secret = "TWITTER_ACCESS_SECRET"
 
         client = tweepy.Client(
             consumer_key=consumer_key, consumer_secret=consumer_secret,
