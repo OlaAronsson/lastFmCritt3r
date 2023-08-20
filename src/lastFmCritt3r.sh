@@ -1,5 +1,11 @@
 #!/bin/bash
 
+export PATH=/usr/bin:/usr/sbin::/usr/local/bin:/usr/local/sbin:/sbin:/bin
+
+HERE=`pwd`
+EXECDIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+cd $EXECDIR
+
 # Required
 USER=LAST_FM_USER_ID
 KEY=LAST_FM_API_KEY
@@ -50,7 +56,7 @@ fi
    
 [ -z $result ] && echo "Tweet not published." && exit 1
 if [ `expr $result` -eq 0 ]; then
-    echo "Tweet published fine." && exit 0
+    echo "Tweet published fine." && cd $HERE && exit 0
 else
-    echo "Tweet not published." && exit 1
+    echo "Tweet not published." && cd $HERE && exit 1
 fi
