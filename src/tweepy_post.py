@@ -1,4 +1,5 @@
 import tweepy
+import os
 
 def __do_post(tweet: str, client: tweepy.Client):
     response = client.create_tweet(
@@ -13,26 +14,10 @@ def __do_post(tweet: str, client: tweepy.Client):
 def __post_inner(tweet: str, silent: bool):
     
     if bool (tweet and tweet.strip()):
-
-        ########################################################
-        #
-        # Below variables can be found at
-        #
-        #  https://developer.twitter.com/en/portal/dashboard
-        #
-        # Make sure having setup your access tokens for read
-        # _and_ write : default they are read only.
-        #
-        ########################################################
         
-        consumer_key = "TWITTER_API_KEY"
-        consumer_secret = "TWITTER_API_KEY_SECRET"
-        access_token = "TWITTER_ACCESS_TOKEN"
-        access_token_secret = "TWITTER_ACCESS_TOKEN_SECRET"
-
         client = tweepy.Client(
-            consumer_key=consumer_key, consumer_secret=consumer_secret,
-            access_token=access_token, access_token_secret=access_token_secret)
+            consumer_key=os.getenv('TWITTER_API_KEY'), consumer_secret=os.getenv('TWITTER_API_KEY_SECRET'),
+            access_token= os.getenv('TWITTER_ACCESS_TOKEN'), access_token_secret=os.getenv('TWITTER_ACCESS_TOKEN_SECRET'))
 
         if silent:
             try:
